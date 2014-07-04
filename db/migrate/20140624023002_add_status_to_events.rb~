@@ -1,0 +1,5 @@
+class AddStatusToEvents < ActiveRecord::Migration
+  def change
+    add_colume :events, :status, :string
+  end
+end
